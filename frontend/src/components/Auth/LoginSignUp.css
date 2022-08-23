@@ -1,0 +1,30 @@
+
+.landingImageLogin {
+    background-image: url("https://res.cloudinary.com/mahmoudbaghdady/image/upload/v1661098769/WhatsApp_Image_2022-08-21_at_5.51.34_PM_cfk1ah.jpg");
+    height: 100vh;
+   }
+   
+.landingImageSignup {
+    background-image: url("https://res.cloudinary.com/mahmoudbaghdady/image/upload/v1661098769/WhatsApp_Image_2022-08-21_at_5.51.34_PM_cfk1ah.jpg");
+    height: 100%;
+   }
+   .landingImage {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/mahmoudbaghdady/image/upload/v1661098769/WhatsApp_Image_2022-08-21_at_5.51.34_PM_cfk1ah.jpg");
+    background-size: fill;
+    background-position:center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+
+   }
+   .landingImageMd {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/mahmoudbaghdady/image/upload/v1661099073/WhatsApp_Image_2022-08-21_at_5.51.34_PM_msapjw.jpg");
+    background-size: fill;
+    background-position:inherit;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+
+   }

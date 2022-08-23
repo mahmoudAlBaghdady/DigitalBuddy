@@ -1,0 +1,30 @@
+@api = http://localhost:4000/videos
+###
+GET {{api}}
+
+###
+
+GET {{api}}/625644edbda714911cddef32
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "url" : "https://www.youtube.com/watch?v=_RZ-T6TxP7w&t=9s",
+    "title":"fazt 1",
+    "description" : "fazt 1 video"
+}
+###
+PUT {{api}}/62564d0927cde521a1
+Content-Type: application/json
+
+{
+    
+    "description" : "sindibad"
+}
+###
+#https://www.youtube.com/watch?v=_RZ-T6TxP7w&t=9s
+
+###
+DELETE  {{api}}/62564c7b930a29fd94bb1ddb
