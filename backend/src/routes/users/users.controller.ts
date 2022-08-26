@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 import config from "../../config";
 const { JWT_SECRET } = config;
 export const registerUser: RequestHandler = async (req, res) => {
-  const { name, pic, _id, email, isAdmin, password } = req.body;
+  const { name, pic, _id, email, password } = req.body;
   try {
     const existingUser = await User.findOne({ email });
     if (existingUser) {
@@ -24,7 +24,6 @@ export const registerUser: RequestHandler = async (req, res) => {
         _id: user._id,
         name: user.name,
         email: user.email,
-        isAdmin: user.isAdmin,
         pic: user.pic,
         token: token,
       });
@@ -52,7 +51,6 @@ export const authUser: RequestHandler = async (req, res) => {
     _id: user._id,
     name: user.name,
     email: user.email,
-    isAdmin: user.isAdmin,
     pic: user.pic,
     token: token,
   });
